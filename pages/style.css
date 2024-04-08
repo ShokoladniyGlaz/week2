@@ -19,9 +19,11 @@ body {
     align-items: center;
     background-color: #fff;
 }
-.header-container{
+
+.header-container {
     width: 1140px;
     margin: 0 auto;
+    background-color: #fff;
 }
 
 .headerTop {
@@ -344,7 +346,11 @@ main {
 .butt {
     display: flex;
     gap: 10px;
+    padding-left: 20px;
+}
 
+.butt_big {
+    padding-right: 124px
 }
 
 .buttonP1 {
@@ -385,7 +391,6 @@ main {
 .postup {
     display: flex;
     justify-content: space-between;
-    width: 1090px;
     height: 60px;
     align-items: center;
     padding: 0 25px 0 25px;
@@ -421,6 +426,18 @@ main {
     gap: 10px;
     margin-left: 20px;
     margin-bottom: 11px;
+}
+
+#book_category-besteller {
+    position: absolute;
+    top: -6px;
+    left: -42px;
+}
+
+#book_category-sale {
+    position: absolute;
+    top: 29px;
+    left: -42px;
 }
 
 .seleCont {
@@ -494,7 +511,7 @@ main {
     line-height: 16px;
 }
 
-.dostoijenia {
+.dostijenia {
     display: flex;
     gap: 30px;
 }
@@ -693,4 +710,271 @@ footer {
     gap: 30px;
     justify-content: space-between;
     align-items: center;
+}
+
+.cartBox_media {
+    display: none;
+}
+
+.input_media {
+    display: none;
+}
+
+.notification {
+    position: absolute;
+    top: -9px;
+    right: 54px;
+}
+
+.burger_img-media {
+    display: none;
+}
+
+.potpiska_line {
+    position: absolute;
+    top: -15px;
+    left: 56px;
+    z-index: 1;
+}
+.footNet{
+    display: none;
+}
+
+@media (max-width: 375px) {
+    body {
+        margin: 0 10px;
+    }
+
+    .headerTop {
+        display: none;
+    }
+
+    .headerMid {
+        width: 355px;
+        justify-content: space-evenly;
+        margin: 15px 0;
+    }
+
+    .BlockHM2 {
+        gap: 10px;
+    }
+
+    .header-container {
+        width: 355px;
+    }
+
+    .headerBot {
+        display: none;
+    }
+
+    .burger_img-media {
+        display: block;
+    }
+
+    .navEl {
+        display: none;
+    }
+
+    .d1 input {
+        width: 195px;
+        border: none;
+        background: #F7F7F7;
+    }
+
+    .d1 button {
+        width: 40px;
+        height: 40px;
+        background: #F7F7F7;
+    }
+
+    .d1::placeholder {}
+
+    .hidden {
+        display: none;
+    }
+
+    .cartBox {
+        display: none;
+    }
+
+    .cartCont1 {
+        flex-direction: column;
+    }
+
+    .slider-container {
+        width: 355px;
+        height: 175px;
+    }
+
+    .slider_svg {
+        width: 88px;
+    }
+
+    .cart {
+        margin-top: 10px;
+        margin-left: 0;
+        width: 355px;
+    }
+
+    .catalog {
+        width: 355px;
+        margin-top: -20px;
+    }
+
+    .catalogEl {
+        width: 177px;
+        height: 504px;
+    }
+
+    .otziv {
+        flex-direction: column;
+        margin-left: 15px;
+    }
+
+    .otziv_img {
+        width: 144px;
+    }
+
+    .rating_img {
+        width: 52px;
+        height: 25px;
+    }
+
+    .products {
+        gap: 0;
+    }
+
+    #book_category-besteller {
+        left: 10px;
+    }
+
+    #book_category-sale {
+        left: -10px;
+    }
+
+    .butt {
+        padding-left: 15px;
+        margin-right: 10px;
+    }
+    .allBooks {
+        width: 355px;
+    }
+
+    .cartBox_media {
+        display: flex;
+        flex-direction: column;
+        width: 355px;
+        margin-top: 10px;
+        gap: 10px;
+    }
+
+    .input_media {
+        display: block;
+    }
+
+    .notification {
+        top: -5px;
+        right: 0;
+    }
+
+    .logo_img {
+        width: 43px;
+        height: 37px;
+    }
+
+    .icon_bigger {
+        width: 25px;
+        height: 25px;
+    }
+
+    .P1_big {
+        width: 265px;
+    }
+
+    .butt_big {
+        padding-right: 0;
+    }
+
+    .potpiska {
+        width: 355px;
+        flex-direction: column;
+        padding-left: 0;
+        align-items: normal;
+        height: 190px;
+        margin-top: -20px;
+    }
+
+    .potpiskaText {
+        width: 260px;
+        margin: 5px 0 10px;
+        padding-left: 15px;
+    }
+
+    .d3 input {
+        width: 320px;
+        margin-right: 50px;
+    }
+
+    .d3 button {
+        position: absolute;
+        top: 125%;
+        left: 3%;
+        width: 335px;
+    }
+
+    .potpiska_line {
+        top: 12px;
+        left: 70px;
+    }
+    .dostijenia{
+        gap: 10px;
+        flex-direction: column;
+    }
+    .dostEl{
+        width: 355px;
+    }
+    .novCatalogEl{
+        border: none;
+    }
+    .novosti{
+        width: 355px;
+    }
+    .footer-container{
+        width: 355px;
+    }
+    .footerTop{
+        width: 355px;
+        justify-content: normal;
+        flex-direction: column;
+        height: 161px;
+    }
+    .d2{
+        padding-left: 0;
+        display: flex;
+        gap: 30px;
+        margin-top: 20px;
+    }
+    .d2 input{
+        width: 220px;
+    }
+    .footNet{
+        display: block;
+        padding-bottom: 20px;
+        margin-top: 20px;
+        border-bottom: 1px solid #1C294D26;
+        width: 100%;
+        text-align: center;
+    }
+    .d2 input::placeholder{
+        font-size: 13px;
+    }
+    .footCont{
+        span{
+            display: none;
+        }
+        
+    }
+    #span_header{
+        display: flex;
+    }
 }
