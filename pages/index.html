@@ -1,65 +1,75 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/src/assets/typography.css">
+    <link rel="stylesheet" href="../src/assets/typography.css">
     <title>O:</title>
 </head>
+
 <body>
-    <header>
+    <header class="header">
         <div class="headerTop">
             <div class="Block1">
                 <div class="navEl" style="gap: 7px;">
-                    <img src="/src/assets/svg/IconH1.svg"  alt="IconH1" style="padding-left: 5px;">
-                   <div class="navEl">Москва</div> 
+                    <img src="../src/assets/svg/IconH1.svg" alt="IconH1" style="padding-left: 5px;">
+                    <div class="navEl">Москва</div>
                 </div>
                 <div class="navEl">
-                    <img src="/src/assets/svg/IconH2.svg" alt="IconH2">
-                   <div class="navEl">Доставка и оплата</div> 
+                    <img src="../src/assets/svg/IconH2.svg" alt="IconH2">
+                    <div class="navEl">Доставка и оплата</div>
                 </div>
-                <div class="navEl"   >
-                    <img src="/src/assets/svg/IconH3.svg" alt="IconH3" >
+                <div class="navEl">
+                    <img src="../src/assets/svg/IconH3.svg" alt="IconH3">
                     Адрес и часы работы
                 </div>
             </div>
-            <div class="Block2" >
+            <div class="Block2">
                 <div class="navEl">
-                    <img src="/src/assets/svg/IconH4.svg"   alt="IconH4">
+                    <img src="../src/assets/svg/IconH4.svg" alt="IconH4">
                     market@estatut.ru
                 </div>
                 <div class="navEl">
-                    <img src="/src/assets/svg/IconH5.svg"  alt="IconH5">
+                    <img src="../src/assets/svg/IconH5.svg" alt="IconH5">
                     8 (968) 660-65-50
-                    <img src="/src/assets/svg/IconH6.svg" alt="IconH6">
+                    <img src="../src/assets/svg/IconH6.svg" alt="IconH6">
                 </div>
             </div>
         </div>
         <div class="headerMid">
             <div class="BlockHM2">
-                <img src="/src/assets/svg/logo.svg" alt="logo">
+                <img src="../src/assets/svg/logo.svg" alt="logo">
                 <div class="d1">
                     <form>
-                    <input type="text" placeholder=" Автор, название, ISBN">
-                    <button type="submit"><img src="/src/assets/svg/sirch.svg" alt="sirch">Искать</button>
+                        <input type="text" placeholder=" Автор, название, ISBN">
+                        <button type="submit"><img src="../src/assets/svg/sirch.svg" alt="sirch">Искать</button>
                     </form>
                 </div>
             </div>
             <div class="BlockHM1" style="gap: 33px;">
-                <div class="navEl" style="gap: 10px;"><img src="/src/assets/svg/IconHM1.svg" alt="Quantity333"> Отложено</div>
-                <div class="navEl"><img src="/src/assets/svg/IconHM2.svg" alt="IconHM2"> Войти</div>
-                <div class="navEl1" style="position: relative;">  <img src="/src/assets/svg/Quantity333.svg" style="position: absolute; top: -9px; right: 54px;" alt=""><img src="/src/assets/svg/IconHM3.svg"  alt="IconHM3"><div class="d">Корзина</div> </div>
+                <div class="navEl" style="gap: 10px;"><img src="../src/assets/svg/IconHM1.svg" alt="Quantity333">
+                    Отложено</div>
+                <div class="navEl"><img src="../src/assets/svg/IconHM2.svg" alt="IconHM2"> Войти</div>
+                <div class="navEl1" style="position: relative;"> <img src="../src/assets/svg/Quantity333.svg"
+                        style="position: absolute; top: -9px; right: 54px;" alt=""><img
+                        src="../src/assets/svg/IconHM3.svg" alt="IconHM3">
+                    <div class="d">Корзина</div>
+                </div>
             </div>
         </div>
-        <div class="headerBot"> 
+        <div class="headerBot">
             <div class="BlockHB1">
-                <img src="/src/assets/svg/burger.svg" alt="burger">
+                <img src="../src/assets/svg/burger.svg" alt="burger">
                 <nav>
                     <span>Каталог</span>
                     <span>Авторы</span>
                     <span>Новинки</span>
-                    <span class="navEl"><div><img src="/src/assets/svg/sele.svg" alt="sele"></div> <div>Скидки</div></span>
+                    <span class="navEl">
+                        <div><img src="../src/assets/svg/sele.svg" alt="sele"></div>
+                        <div>Скидки</div>
+                    </span>
                     <span> Партнёрам</span>
                     <span>Мы</span>
                 </nav>
@@ -68,30 +78,58 @@
         </div>
     </header>
     <main>
-<!-- Previu -->
+        <!-- Previu -->
         <div class="cartCont1">
-            <div>
-                <img src="/src/assets/img/Group 1014.png" alt="Group">
+            <div class="cartLeft">                
+                <div class="slider-container">
+                    <div class="slider">
+                        <div class="slide">
+                            <p><img src="./src/blocks/slider/images/2=3.svg" alt=""></p>
+                            <img src="./images/на все книги.svg" alt="">
+                        </div>
+                        <div class="slide">
+                            <p><img src="/src/blocks/slider/images/3=2.svg" alt=""></p>
+                            <img src="./images/на все книги.svg" alt="">
+                        </div>
+                        <div class="slide">
+                            <p><img src="./images/3=2.svg" alt=""></p>
+                            <img src="./images/на все книги.svg" alt="">
+                        </div>
+                        <div class="slide">
+                            <p><img src="./images/2=3.svg" alt=""></p>
+                            <img src="./images/на все книги.svg" alt="">
+                        </div>
+                    </div>
+                    <button class="prev-button hover-left"></button>
+                    <button class="next-button hover-right"></button>
+                    <div class="slider_indicators">
+                        <div class="indicator"></div>
+                        <div class="indicator"></div>
+                        <div class="indicator"></div>
+                        <div class="indicator"></div>
+                    </div>
+                </div>
                 <div class="cartBox">
-                    <img src="/src/assets/img/Component 1.png" alt="Component">
-                    <img src="/src/assets/img/Component 2.png" alt="Component">
-                </div> 
+                    <img src="../src/assets/img/Component 1.png" alt="Component">
+                    <img src="../src/assets/img/Component 2.png" alt="Component">
+                </div>
             </div>
             <div class="cart">
                 <div class="time">
                     <span>Книга дня</span>
-                    <img src="/src/assets/img/time.png" alt="time" style="align-self: center; ">
+                    <img src="../src/assets/img/time.png" alt="time" style="align-self: center; ">
                 </div>
-                <img src="/src/assets/img/olegroi.png" alt="olegroi">
+                <img src="../src/assets/img/olegroi.png" alt="olegroi">
                 <div class="text">
                     <div class="textGrup">Корпоративное право</div>
                     <div class="textOpis">Инвестирование: способы, риски, субъекты : монография</div>
                     <div class="textName">Майфат А.В.</div>
                     <div class="summ">4 450 ₽</div>
                 </div>
-                <div class="butt" style="padding-right: 124px" >
-                    <button class="buttonP1 textOpis"> <img src="/src/assets/svg/yellowcard.svg" alt="yellowcard"> В корзину </button>
-                    <button class="buttonP2 "><img src="/src/assets/svg/IconHM1.svg" alt="IconHM1"></button>
+                <div class="butt" style="padding-right: 124px">
+                    <button class="buttonP1 textOpis"> <img src="../src/assets/svg/yellowcard.svg" alt="yellowcard"> В
+                        корзину </button>
+                    <button class="buttonP2 "><img src="../src/assets/svg/IconHM1.svg" alt="IconHM1"></button>
                 </div>
             </div>
         </div>
@@ -99,15 +137,17 @@
         <div class="catalog">
             <div class="postup">
                 <div class="section">Новые поступления</div>
-                <img src="/src/assets/svg/Dark.svg" alt="Dark">
+                <img src="../src/assets/svg/Dark.svg" alt="Dark">
             </div>
             <div class="products">
                 <!-- 1 element -->
                 <div class="catalogEl">
                     <div class="book" style="position: relative; align-self: center;">
-                        <img src="/src/assets/svg/besteller.svg" alt="besteller" style="position: absolute;top: -6px; left: -42px;">
-                        <img src="/src/assets/svg/besteller (1).svg" alt="besteller"  style="position: absolute;top: 29px; left: -42px;">
-                        <img src="/src/assets/img/sever na uge.png" style="align-self: center;" alt="sever na uge">
+                        <img src="../src/assets/svg/besteller.svg" alt="besteller"
+                            style="position: absolute;top: -6px; left: -42px;">
+                        <img src="../src/assets/svg/besteller (1).svg" alt="besteller"
+                            style="position: absolute;top: 29px; left: -42px;">
+                        <img src="../src/assets/img/sever na uge.png" style="align-self: center;" alt="sever na uge">
                     </div>
                     <div class="text">
                         <div class="textGrup">Корпоративное право</div>
@@ -116,19 +156,21 @@
                         <div class="summ">4 450 ₽</div>
                     </div>
                     <div class="otziv">
-                        <img src="/src/assets/svg/rating.svg" alt="rating">
-                        <img src="/src/assets/svg/otziv.svg" alt="otziv">
+                        <img src="../src/assets/svg/rating.svg" alt="rating">
+                        <img src="../src/assets/svg/otziv.svg" alt="otziv">
                     </div>
-                    <div class="butt" style="padding-left: 20px;" >
-                        <button class="buttonP1 textOpis"> <img src="/src/assets/svg/yellowcard.svg" alt="yellowcard"> В корзину </button>
-                        <button class="buttonP2 "><img src="/src/assets/svg/IconHM1.svg" alt="IconHM1"></button>
+                    <div class="butt" style="padding-left: 20px;">
+                        <button class="buttonP1 textOpis"> <img src="../src/assets/svg/yellowcard.svg" alt="yellowcard">
+                            В корзину </button>
+                        <button class="buttonP2 "><img src="../src/assets/svg/IconHM1.svg" alt="IconHM1"></button>
                     </div>
                 </div>
                 <!-- 2 element -->
                 <div class="catalogEl">
                     <div class="book" style="position: relative; align-self: center;">
-                        <img src="/src/assets/svg/besteller (2).svg" alt="besteller" style="position: absolute;top: -6px; left: -47px;">
-                        <img src="/src/assets/img/vitya.png" style="align-self: center;" alt="sever na uge">
+                        <img src="../src/assets/svg/besteller (2).svg" alt="besteller"
+                            style="position: absolute;top: -6px; left: -47px;">
+                        <img src="../src/assets/img/vitya.png" style="align-self: center;" alt="sever na uge">
                     </div>
                     <div class="text">
                         <div class="textGrup">Договорное право</div>
@@ -137,44 +179,48 @@
                         <div class="summ">372 ₽ </div>
                     </div>
                     <div class="otziv">
-                        <img src="/src/assets/svg/rating.svg" alt="rating">
-                        <img src="/src/assets/svg/otziv.svg" alt="otziv">
+                        <img src="../src/assets/svg/rating.svg" alt="rating">
+                        <img src="../src/assets/svg/otziv.svg" alt="otziv">
                     </div>
-                    <div class="butt" style="padding-left: 20px;" >
-                        <button class="buttonP1 textOpis"> <img src="/src/assets/svg/yellowcard.svg" alt="yellowcard"> В корзину </button>
-                        <button class="buttonP2 "><img src="/src/assets/svg/IconHM1.svg" alt="IconHM1"></button>
+                    <div class="butt" style="padding-left: 20px;">
+                        <button class="buttonP1 textOpis"> <img src="../src/assets/svg/yellowcard.svg" alt="yellowcard">
+                            В корзину </button>
+                        <button class="buttonP2 "><img src="../src/assets/svg/IconHM1.svg" alt="IconHM1"></button>
                     </div>
                 </div>
-                <!-- 3 element -->                    
+                <!-- 3 element -->
                 <div class="catalogEl">
                     <div class="book" style="position: relative; align-self: center;">
-                        <img src="/src/assets/img/bejin.png" style="align-self: center;" alt="sever na uge">
+                        <img src="../src/assets/img/bejin.png" style="align-self: center;" alt="sever na uge">
                     </div>
                     <div class="text">
                         <div class="textGrup">Конкурентное право</div>
                         <div class="textOpis">Договор коммерческой <br> концессии (франчайзинг). Граж...</div>
                         <div class="textName">Башлаков-Николаев И.В.</div>
-                       <div class="seleCont">
-                            <div class="sele"> 984 ₽ </div> 
-                            <img src="/src/assets/svg/seleSumm.svg" alt="seleSumm">
+                        <div class="seleCont">
+                            <div class="sele"> 984 ₽ </div>
+                            <img src="../src/assets/svg/seleSumm.svg" alt="seleSumm">
                             <div class="vigoda">Выгода 300 ₽</div>
                         </div>
                     </div>
                     <div class="otziv">
-                        <img src="/src/assets/svg/rating.svg" alt="rating">
-                        <img src="/src/assets/svg/otziv.svg" alt="otziv">
+                        <img src="../src/assets/svg/rating.svg" alt="rating">
+                        <img src="../src/assets/svg/otziv.svg" alt="otziv">
                     </div>
-                    <div class="butt" style="padding-left: 20px;" >
-                        <button class="buttonP1 textOpis"> <img src="/src/assets/svg/yellowcard.svg" alt="yellowcard"> В корзину </button>
-                        <button class="buttonP2 "><img src="/src/assets/svg/IconHM1.svg" alt="IconHM1"></button>
+                    <div class="butt" style="padding-left: 20px;">
+                        <button class="buttonP1 textOpis"> <img src="../src/assets/svg/yellowcard.svg" alt="yellowcard">
+                            В корзину </button>
+                        <button class="buttonP2 "><img src="../src/assets/svg/IconHM1.svg" alt="IconHM1"></button>
                     </div>
                 </div>
                 <!-- 4 element -->
                 <div class="catalogEl">
                     <div class="book" style="position: relative; align-self: center;">
-                        <img src="/src/assets/svg/besteller.svg" alt="besteller" style="position: absolute;top: -6px; left: -42px;">
-                        <img src="/src/assets/svg/besteller (1).svg" alt="besteller"  style="position: absolute;top: 29px; left: -42px;">
-                        <img src="/src/assets/img/sever na uge.png" style="align-self: center;" alt="sever na uge">
+                        <img src="../src/assets/svg/besteller.svg" alt="besteller"
+                            style="position: absolute;top: -6px; left: -42px;">
+                        <img src="../src/assets/svg/besteller (1).svg" alt="besteller"
+                            style="position: absolute;top: 29px; left: -42px;">
+                        <img src="../src/assets/img/sever na uge.png" style="align-self: center;" alt="sever na uge">
                     </div>
                     <div class="text">
                         <div class="textGrup">Корпоративное право</div>
@@ -183,238 +229,256 @@
                         <div class="summ"> 450 ₽</div>
                     </div>
                     <div class="otziv">
-                        <img src="/src/assets/svg/rating.svg" alt="rating">
-                        <img src="/src/assets/svg/otziv.svg" alt="otziv">
+                        <img src="../src/assets/svg/rating.svg" alt="rating">
+                        <img src="../src/assets/svg/otziv.svg" alt="otziv">
                     </div>
-                    <div class="butt" style="padding-left: 20px;" >
-                        <button class="buttonP1 textOpis"> <img src="/src/assets/svg/yellowcard.svg" alt="yellowcard"> В корзину </button>
-                        <button class="buttonP2 "><img src="/src/assets/svg/IconHM1.svg" alt="IconHM1"></button>
+                    <div class="butt" style="padding-left: 20px;">
+                        <button class="buttonP1 textOpis"> <img src="../src/assets/svg/yellowcard.svg" alt="yellowcard">
+                            В корзину </button>
+                        <button class="buttonP2 "><img src="../src/assets/svg/IconHM1.svg" alt="IconHM1"></button>
                     </div>
-                </div>
-                </div>
-                <div class="allBooks ">
-                    <div class="textOpis">Показать все книги раздела</div>
                 </div>
             </div>
-<!-- Potpiska -->
-            <div class="potpiska">
-                <div class="potpiskaText" style=" position: relative;"> 
-                    <img src="/src/assets/svg/Vector 163.svg" alt="Vector" style="position: absolute;  top:-15px; left: 56px;z-index: 1;" >
-                </div>
-                <div class="potpiskaText" style="z-index: 1000;">Скидка 200 ₽ при подписке на рассылку Издательства</div>
-                <div class="d3">
-                    <form>
+            <div class="allBooks ">
+                <div class="textOpis">Показать все книги раздела</div>
+            </div>
+        </div>
+        <!-- Potpiska -->
+        <div class="potpiska">
+            <div class="potpiskaText" style=" position: relative;">
+                <img src="../src/assets/svg/Vector 163.svg" alt="Vector"
+                    style="position: absolute;  top:-15px; left: 56px;z-index: 1;">
+            </div>
+            <div class="potpiskaText" style="z-index: 1000;">Скидка 200 ₽ при подписке на рассылку Издательства</div>
+            <div class="d3">
+                <form>
                     <input type="text" placeholder=" Введите ваш Email">
                     <button type="submit">Подписаться</button>
-                    </form>
-                </div>
+                </form>
             </div>
-<!-- Catalog -->
-            <div class="catalog">
-                <div class="postup">
-                    <div class="section">Готовятся к выходу</div>
-                    <img src="/src/assets/svg/Dark.svg" alt="Dark">
-                </div>
+        </div>
+        <!-- Catalog -->
+        <div class="catalog">
+            <div class="postup">
+                <div class="section">Готовятся к выходу</div>
+                <img src="../src/assets/svg/Dark.svg" alt="Dark">
+            </div>
             <div class="products">
-        <!-- 1 element -->
-                    <div class="catalogEl">
-                        <div class="book" style="position: relative; align-self: center;">
-                            <img src="/src/assets/svg/besteller.svg" alt="besteller" style="position: absolute;top: -6px; left: -42px;">
-                            <img src="/src/assets/svg/besteller (1).svg" alt="besteller"  style="position: absolute;top: 29px; left: -42px;">
-                            <img src="/src/assets/img/sever na uge.png" style="align-self: center;" alt="sever na uge">
-                        </div>
-                        <div class="text">
-                            <div class="textGrup">Корпоративное право</div>
-                            <div class="textOpis">Инвестирование: способы,<br>риски, субъекты : монография</div>
-                            <div class="textName">Майфат А.В.</div>
-                            <div class="summ">4 450 ₽</div>
-                        </div>
-                        <div class="otziv">
-                            <img src="/src/assets/svg/rating.svg" alt="rating">
-                            <img src="/src/assets/svg/otziv.svg" alt="otziv">
-                        </div>
-                        <div class="butt" style="padding-left: 20px;" >
-                            <button class="buttonP1 textOpis"> <img src="/src/assets/svg/yellowcard.svg" alt="yellowcard"> В корзину </button>
-                            <button class="buttonP2 "><img src="/src/assets/svg/IconHM1.svg" alt="IconHM1"></button>
-                        </div>
+                <!-- 1 element -->
+                <div class="catalogEl">
+                    <div class="book" style="position: relative; align-self: center;">
+                        <img src="../src/assets/svg/besteller.svg" alt="besteller"
+                            style="position: absolute;top: -6px; left: -42px;">
+                        <img src="../src/assets/svg/besteller (1).svg" alt="besteller"
+                            style="position: absolute;top: 29px; left: -42px;">
+                        <img src="../src/assets/img/sever na uge.png" style="align-self: center;" alt="sever na uge">
                     </div>
-        <!-- 2 element -->
-                    <div class="catalogEl">
-                        <div class="book" style="position: relative; align-self: center;">
-                            <img src="/src/assets/svg/besteller (2).svg" alt="besteller" style="position: absolute;top: -6px; left: -47px;">
-                            <img src="/src/assets/img/vitya.png" style="align-self: center;" alt="sever na uge">
-                        </div>
-                        <div class="text">
-                            <div class="textGrup">Договорное право</div>
-                            <div class="textOpis">Договор коммерческой <br> концессии (франчайзинг). Граж...</div>
-                            <div class="textName">Багдасарян А.Ф.</div>
-                            <div class="summ">372 ₽ </div>
-                        </div>
-                        <div class="otziv">
-                            <img src="/src/assets/svg/rating.svg" alt="rating">
-                            <img src="/src/assets/svg/otziv.svg" alt="otziv">
-                        </div>
-                        <div class="butt" style="padding-left: 20px;" >
-                            <button class="buttonP1 textOpis"> <img src="/src/assets/svg/yellowcard.svg" alt="yellowcard"> В корзину </button>
-                            <button class="buttonP2 "><img src="/src/assets/svg/IconHM1.svg" alt="IconHM1"></button>
-                        </div>
+                    <div class="text">
+                        <div class="textGrup">Корпоративное право</div>
+                        <div class="textOpis">Инвестирование: способы,<br>риски, субъекты : монография</div>
+                        <div class="textName">Майфат А.В.</div>
+                        <div class="summ">4 450 ₽</div>
                     </div>
-        <!-- 3 element -->                    
-                    <div class="catalogEl">
-                        <div class="book" style="position: relative; align-self: center;">
-                            <img src="/src/assets/img/bejin.png" style="align-self: center;" alt="sever na uge">
-                        </div>
-                        <div class="text">
-                            <div class="textGrup">Конкурентное право</div>
-                            <div class="textOpis">Договор коммерческой <br> концессии (франчайзинг). Граж...</div>
-                            <div class="textName">Башлаков-Николаев И.В.</div>
-                           <div class="seleCont">
-                                <div class="sele"> 984 ₽ </div> 
-                                <img src="/src/assets/svg/seleSumm.svg" alt="seleSumm">
-                                <div class="vigoda">Выгода 300 ₽</div>
-                            </div>
-                        </div>
-                        <div class="otziv">
-                            <img src="/src/assets/svg/rating.svg" alt="rating">
-                            <img src="/src/assets/svg/otziv.svg" alt="otziv">
-                        </div>
-                        <div class="butt" style="padding-left: 20px;" >
-                            <button class="buttonP1 textOpis"> <img src="/src/assets/svg/yellowcard.svg" alt="yellowcard"> В корзину </button>
-                            <button class="buttonP2 "><img src="/src/assets/svg/IconHM1.svg" alt="IconHM1"></button>
-                        </div>
+                    <div class="otziv">
+                        <img src="../src/assets/svg/rating.svg" alt="rating">
+                        <img src="../src/assets/svg/otziv.svg" alt="otziv">
                     </div>
-        <!-- 4 element -->
-                    <div class="catalogEl">
-                        <div class="book" style="position: relative; align-self: center;">
-                            <img src="/src/assets/svg/besteller.svg" alt="besteller" style="position: absolute;top: -6px; left: -42px;">
-                            <img src="/src/assets/svg/besteller (1).svg" alt="besteller"  style="position: absolute;top: 29px; left: -42px;">
-                            <img src="/src/assets/img/sever na uge.png" style="align-self: center;" alt="sever na uge">
-                        </div>
-                        <div class="text">
-                            <div class="textGrup">Корпоративное право</div>
-                            <div class="textOpis">Инвестирование: способы,<br>риски, субъекты : монография</div>
-                            <div class="textName">Майфат А.В.</div>
-                            <div class="summ"> 450 ₽</div>
-                        </div>
-                        <div class="otziv">
-                            <img src="/src/assets/svg/rating.svg" alt="rating">
-                            <img src="/src/assets/svg/otziv.svg" alt="otziv">
-                        </div>
-                        <div class="butt" style="padding-left: 20px;" >
-                            <button class="buttonP1 textOpis"> <img src="/src/assets/svg/yellowcard.svg" alt="yellowcard"> В корзину </button>
-                            <button class="buttonP2 "><img src="/src/assets/svg/IconHM1.svg" alt="IconHM1"></button>
-                        </div>
+                    <div class="butt" style="padding-left: 20px;">
+                        <button class="buttonP1 textOpis"> <img src="../src/assets/svg/yellowcard.svg" alt="yellowcard">
+                            В корзину </button>
+                        <button class="buttonP2 "><img src="../src/assets/svg/IconHM1.svg" alt="IconHM1"></button>
                     </div>
                 </div>
-                <div class="allBooks ">
-                    <div class="textOpis">Показать все книги раздела</div>
-                </div>
-            </div>
-<!-- Dostoinstva -->
-            <div class="dostoijenia">
-        <!-- dostijenie 1 -->
-                <div class="dostEl">
-                    <div class="dostElImg" style="padding-bottom: 8px;"> 
-                        <img src="/src/assets/img/clock.png"  alt="clock" >
+                <!-- 2 element -->
+                <div class="catalogEl">
+                    <div class="book" style="position: relative; align-self: center;">
+                        <img src="../src/assets/svg/besteller (2).svg" alt="besteller"
+                            style="position: absolute;top: -6px; left: -47px;">
+                        <img src="../src/assets/img/vitya.png" style="align-self: center;" alt="sever na uge">
                     </div>
-                    <div class="dostCont">
-                        <span class="dostName">Быстрая доставка</span>
-                        <span class="dostOpis">Доставим бесплатно <br> от 2000 ₽ по всей России</span>
+                    <div class="text">
+                        <div class="textGrup">Договорное право</div>
+                        <div class="textOpis">Договор коммерческой <br> концессии (франчайзинг). Граж...</div>
+                        <div class="textName">Багдасарян А.Ф.</div>
+                        <div class="summ">372 ₽ </div>
                     </div>
-                </div>
-        <!-- dostijenie 2 -->
-                <div class="dostEl">
-                    <div class="dostElImg"style="padding-top: 1px "> 
-                        <img src="/src/assets/img/bankCard.png"  alt="clock" >
+                    <div class="otziv">
+                        <img src="../src/assets/svg/rating.svg" alt="rating">
+                        <img src="../src/assets/svg/otziv.svg" alt="otziv">
                     </div>
-                    <div class="dostCont">
-                        <span class="dostName">Безопасная оплата</span>
-                        <span class="dostOpis">Плати безопасно и легко <br> онлайн на нашем сайте.</span>
+                    <div class="butt" style="padding-left: 20px;">
+                        <button class="buttonP1 textOpis"> <img src="../src/assets/svg/yellowcard.svg" alt="yellowcard">
+                            В корзину </button>
+                        <button class="buttonP2 "><img src="../src/assets/svg/IconHM1.svg" alt="IconHM1"></button>
                     </div>
                 </div>
-        <!-- dostijenie 3 -->
-                <div class="dostEl">
-                    <div class="dostElImg" style="padding-bottom: 2px;"> 
-                        <img src="/src/assets/img/star.png"  alt="clock">
+                <!-- 3 element -->
+                <div class="catalogEl">
+                    <div class="book" style="position: relative; align-self: center;">
+                        <img src="../src/assets/img/bejin.png" style="align-self: center;" alt="sever na uge">
                     </div>
-                    <div class="dostCont">
-                        <span class="dostName">Бонусная программа</span>
-                        <span class="dostOpis">Дополнительная скидка <br> 15% при регистрации</span>
+                    <div class="text">
+                        <div class="textGrup">Конкурентное право</div>
+                        <div class="textOpis">Договор коммерческой <br> концессии (франчайзинг). Граж...</div>
+                        <div class="textName">Башлаков-Николаев И.В.</div>
+                        <div class="seleCont">
+                            <div class="sele"> 984 ₽ </div>
+                            <img src="../src/assets/svg/seleSumm.svg" alt="seleSumm">
+                            <div class="vigoda">Выгода 300 ₽</div>
+                        </div>
+                    </div>
+                    <div class="otziv">
+                        <img src="../src/assets/svg/rating.svg" alt="rating">
+                        <img src="../src/assets/svg/otziv.svg" alt="otziv">
+                    </div>
+                    <div class="butt" style="padding-left: 20px;">
+                        <button class="buttonP1 textOpis"> <img src="../src/assets/svg/yellowcard.svg" alt="yellowcard">
+                            В корзину </button>
+                        <button class="buttonP2 "><img src="../src/assets/svg/IconHM1.svg" alt="IconHM1"></button>
                     </div>
                 </div>
-        <!-- dostijenie 4 -->
-                <div class="dostEl">
-                    <div class="dostElImg" style="padding-bottom: 24px;"> 
-                        <img src="/src/assets/img/poket.png"  alt="clock">
+                <!-- 4 element -->
+                <div class="catalogEl">
+                    <div class="book" style="position: relative; align-self: center;">
+                        <img src="../src/assets/svg/besteller.svg" alt="besteller"
+                            style="position: absolute;top: -6px; left: -42px;">
+                        <img src="../src/assets/svg/besteller (1).svg" alt="besteller"
+                            style="position: absolute;top: 29px; left: -42px;">
+                        <img src="../src/assets/img/sever na uge.png" style="align-self: center;" alt="sever na uge">
                     </div>
-                    <div class="dostCont">
-                        <span class="dostName">Большой выбор</span>
-                        <span class="dostOpis">Ежегодно выходит в свет <br> более 100 книг</span>
+                    <div class="text">
+                        <div class="textGrup">Корпоративное право</div>
+                        <div class="textOpis">Инвестирование: способы,<br>риски, субъекты : монография</div>
+                        <div class="textName">Майфат А.В.</div>
+                        <div class="summ"> 450 ₽</div>
+                    </div>
+                    <div class="otziv">
+                        <img src="../src/assets/svg/rating.svg" alt="rating">
+                        <img src="../src/assets/svg/otziv.svg" alt="otziv">
+                    </div>
+                    <div class="butt" style="padding-left: 20px;">
+                        <button class="buttonP1 textOpis"> <img src="../src/assets/svg/yellowcard.svg" alt="yellowcard">
+                            В корзину </button>
+                        <button class="buttonP2 "><img src="../src/assets/svg/IconHM1.svg" alt="IconHM1"></button>
                     </div>
                 </div>
             </div>
-<!-- Novosti -->
-            <div class="novosti">
-                <div class="postup">
-                    <div class="section">Новости</div>
-                    <img src="/src/assets/svg/Dark.svg" alt="Dark">
+            <div class="allBooks ">
+                <div class="textOpis">Показать все книги раздела</div>
+            </div>
+        </div>
+        <!-- Dostoinstva -->
+        <div class="dostoijenia">
+            <!-- dostijenie 1 -->
+            <div class="dostEl">
+                <div class="dostElImg" style="padding-bottom: 8px;">
+                    <img src="../src/assets/img/clock.png" alt="clock">
                 </div>
-                <div class="novCatalog">
-        <!-- novost 1 -->
-                    <div class="novCatalogEl">
-                        <div class="novCatalogElImg">
-                            <img src="/src/assets/img/Mask Group.png" alt="Mask Group" style="padding-left:20px ;">
-                        </div>
-                        <div class="textNov">
-                            <span class="textGrup">16 июня 2020</span>
-                            <span class="novName">Бесплатный онлайн-семинар. Доктрина <br> stare decisis: борьба за прецедент в рос...</span>
-                            <span class="novOpis">18 июня в «Клубе цивилистов» пройдет <br> бесплатный онлайн-семинар по проблематике <br> судебного прецедента. Мероприятие приуроч...</span>
-                        </div>
-                        <div class="buttCont textOpis">
-                            <button class="readButt">Читать</button>
-                        </div>
+                <div class="dostCont">
+                    <span class="dostName">Быстрая доставка</span>
+                    <span class="dostOpis">Доставим бесплатно <br> от 2000 ₽ по всей России</span>
+                </div>
+            </div>
+            <!-- dostijenie 2 -->
+            <div class="dostEl">
+                <div class="dostElImg" style="padding-top: 1px ">
+                    <img src="../src/assets/img/bankCard.png" alt="clock">
+                </div>
+                <div class="dostCont">
+                    <span class="dostName">Безопасная оплата</span>
+                    <span class="dostOpis">Плати безопасно и легко <br> онлайн на нашем сайте.</span>
+                </div>
+            </div>
+            <!-- dostijenie 3 -->
+            <div class="dostEl">
+                <div class="dostElImg" style="padding-bottom: 2px;">
+                    <img src="../src/assets/img/star.png" alt="clock">
+                </div>
+                <div class="dostCont">
+                    <span class="dostName">Бонусная программа</span>
+                    <span class="dostOpis">Дополнительная скидка <br> 15% при регистрации</span>
+                </div>
+            </div>
+            <!-- dostijenie 4 -->
+            <div class="dostEl">
+                <div class="dostElImg" style="padding-bottom: 24px;">
+                    <img src="../src/assets/img/poket.png" alt="clock">
+                </div>
+                <div class="dostCont">
+                    <span class="dostName">Большой выбор</span>
+                    <span class="dostOpis">Ежегодно выходит в свет <br> более 100 книг</span>
+                </div>
+            </div>
+        </div>
+        <!-- Novosti -->
+        <div class="novosti">
+            <div class="postup">
+                <div class="section">Новости</div>
+                <img src="../src/assets/svg/Dark.svg" alt="Dark">
+            </div>
+            <div class="novCatalog">
+                <!-- novost 1 -->
+                <div class="novCatalogEl">
+                    <div class="novCatalogElImg">
+                        <img src="../src/assets/img/Mask Group.png" alt="Mask Group" style="padding-left:20px ;">
                     </div>
-        <!-- novost 2 -->
-                     <div class="novCatalogEl">
-                        <div class="novCatalogElImg">
-                            <img src="/src/assets/img/Rectangle 932.png" alt="Mask Group" style="padding-left:20px ;">
-                        </div>
-                        <div class="textNov">
-                            <span class="textGrup">16 июня 2020</span>
-                            <span class="novName">Бесплатный онлайн-семинар. Доктрина <br> stare decisis: борьба за прецедент в рос...</span>
-                            <span class="novOpis">18 июня в «Клубе цивилистов» пройдет <br> бесплатный онлайн-семинар по проблематике <br> судебного прецедента. Мероприятие приуроч...</span>
-                        </div>
-                        <div class="buttCont textOpis">
-                            <button class="readButt">Читать</button>
-                        </div>
+                    <div class="textNov">
+                        <span class="textGrup">16 июня 2020</span>
+                        <span class="novName">Бесплатный онлайн-семинар. Доктрина <br> stare decisis: борьба за
+                            прецедент в рос...</span>
+                        <span class="novOpis">18 июня в «Клубе цивилистов» пройдет <br> бесплатный онлайн-семинар по
+                            проблематике <br> судебного прецедента. Мероприятие приуроч...</span>
                     </div>
-         <!-- novost 3 -->
-                     <div class="novCatalogEl">
-                        <div class="novCatalogElImg">
-                            <img src="/src/assets/img/Rectangle 933.png" alt="Mask Group" style="padding-left:20px ;">
-                        </div>
-                        <div class="textNov">
-                            <span class="textGrup">16 июня 2020</span>
-                            <span class="novName">Бесплатный онлайн-семинар. Доктрина <br> stare decisis: борьба за прецедент в рос...</span>
-                            <span class="novOpis">18 июня в «Клубе цивилистов» пройдет <br> бесплатный онлайн-семинар по проблематике <br> судебного прецедента. Мероприятие приуроч...</span>
-                        </div>
-                        <div class="buttCont textOpis">
-                            <button class="readButt">Читать</button>
-                        </div>
+                    <div class="buttCont textOpis">
+                        <button class="readButt">Читать</button>
                     </div>
                 </div>
-            </div>               
-        </main>
-        <footer>
+                <!-- novost 2 -->
+                <div class="novCatalogEl">
+                    <div class="novCatalogElImg">
+                        <img src="../src/assets/img/Rectangle 932.png" alt="Mask Group" style="padding-left:20px ;">
+                    </div>
+                    <div class="textNov">
+                        <span class="textGrup">16 июня 2020</span>
+                        <span class="novName">Бесплатный онлайн-семинар. Доктрина <br> stare decisis: борьба за
+                            прецедент в рос...</span>
+                        <span class="novOpis">18 июня в «Клубе цивилистов» пройдет <br> бесплатный онлайн-семинар по
+                            проблематике <br> судебного прецедента. Мероприятие приуроч...</span>
+                    </div>
+                    <div class="buttCont textOpis">
+                        <button class="readButt">Читать</button>
+                    </div>
+                </div>
+                <!-- novost 3 -->
+                <div class="novCatalogEl">
+                    <div class="novCatalogElImg">
+                        <img src="../src/assets/img/Rectangle 933.png" alt="Mask Group" style="padding-left:20px ;">
+                    </div>
+                    <div class="textNov">
+                        <span class="textGrup">16 июня 2020</span>
+                        <span class="novName">Бесплатный онлайн-семинар. Доктрина <br> stare decisis: борьба за
+                            прецедент в рос...</span>
+                        <span class="novOpis">18 июня в «Клубе цивилистов» пройдет <br> бесплатный онлайн-семинар по
+                            проблематике <br> судебного прецедента. Мероприятие приуроч...</span>
+                    </div>
+                    <div class="buttCont textOpis">
+                        <button class="readButt">Читать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">            
             <div class="footerTop">
-                <img src="/src/assets/svg/logo.svg" alt="logo">
+                <img src="../src/assets/svg/logo.svg" alt="logo">
                 <div class="d2">
                     <form>
-                    <input type="text" placeholder=" Введите свой Email и получите скидку">
-                    <button type="submit"><img src="/src/assets/svg/Send r_15.svg" alt="Send"></button>
-                    </form>              
-                </div> 
-                <img src="/src/assets/svg/Social Networks.svg" alt="Social Networks">
+                        <input type="text" placeholder=" Введите свой Email и получите скидку">
+                        <button type="submit"><img src="../src/assets/svg/Send r_15.svg" alt="Send"></button>
+                    </form>
+                </div>
+                <img src="../src/assets/svg/Social Networks.svg" alt="Social Networks">
             </div>
             <div class="footerMid">
                 <div class="footCont">
@@ -440,17 +504,17 @@
                 <div class="footCont1">
                     <span>Прайс-лист</span>
                     <div class="prais">
-                            <img src="/src/assets/svg/Shape.svg" alt="Shape" style="padding-left: 4px;">
-                            <div class="">
-                                <span class="">Скачать прайс-лист</span>
-                                <span class="textGrup">PDF, 12 Mb </span>
-                            </div>
+                        <img src="../src/assets/svg/Shape.svg" alt="Shape" style="padding-left: 4px;">
+                        <div class="">
+                            <span class="">Скачать прайс-лист</span>
+                            <span class="textGrup">PDF, 12 Mb </span>
+                        </div>
                     </div>
                 </div>
                 <div class="footCont">
                     <span>Телефон и Email</span>
-                    <div class="Contacts"><img src="/src/assets/svg/massag.svg" alt="massag">market@estatut.ru</div>
-                    <div class="Contacts"><img src="/src/assets/svg/telefon.svg" alt="telefon">8 (968) 660-65-50</div>
+                    <div class="Contacts"><img src="../src/assets/svg/massag.svg" alt="massag">market@estatut.ru</div>
+                    <div class="Contacts"><img src="../src/assets/svg/telefon.svg" alt="telefon">8 (968) 660-65-50</div>
                 </div>
             </div>
             <div class="footerBot">
@@ -461,6 +525,9 @@
                     <span>Договор оферты</span>
                 </div>
             </div>
-        </footer>d
-</body>
-</html>
+        </div>
+        </footer>
+        <script src="/src/blocks/slider/script.js"></script>
+    </body>
+    
+    </html>

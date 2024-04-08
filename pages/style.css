@@ -9,13 +9,14 @@
 body{
    font-family: Roboto;
    font-size: 14px;
+   background-color: #F9F9FA;
 }
-header{
+.header{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     align-items: center;
-    
+    background-color: #fff;    
 }
 .headerTop{
     display: flex;
@@ -64,7 +65,7 @@ header{
 }
 .d1 input {
   width: 561px;
-  height: 40px                                                                                                                                                                                      ;
+  height: 40px;
   padding-left: 10px;
   border: 1px solid #DFE0E1;
   border-radius: 5px;
@@ -112,7 +113,7 @@ header{
   display: flex;
   justify-content: space-between;
   width: 1140px;
-  margin-bottom: 48px;
+  margin-bottom: 20px;
 }
 nav{
   display: flex;
@@ -170,7 +171,127 @@ main{
 }
 .cartCont1{
     display: flex;
+    margin-top: 28px;
 }
+.page-title {
+    text-align: center;
+}
+
+.slider-container {
+    position: relative;
+    width: 750px;
+    height: 350px;
+    overflow: hidden;
+    background-color: #CCFF90;
+}
+
+.slider {
+    position: relative;
+    text-align: center;
+    top: 27%;    
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+}
+
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: black;
+}
+
+.prev-button {
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.prev-button::before{
+    content: "";
+    display: inline-block;
+    position: relative;
+    bottom: 5%;
+    width: 8px;
+    height: 12px;
+    background-image: url('/src/blocks/slider/images/right-arrow.svg');
+}
+.prev-button:hover::before{
+    display: none;
+}
+.prev-button::after{
+    content: "";
+    display: none;
+    position: relative;
+    bottom: 5%;
+    width: 8px;
+    height: 12px;
+    background-image: url('/src/blocks/slider/images/right-arrow_hover.svg');
+}
+.prev-button:hover::after{
+    display: inline-block;
+}
+
+.next-button {
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.next-button::before{
+    content: "";
+    display: inline-block;
+    position: relative;
+    bottom: 5%;
+    width: 8px;
+    height: 12px;
+    background-image: url('/src/blocks/slider/images/right-arrow.svg');
+}
+.next-button:hover::before{
+    display: none;
+}
+.next-button::after{
+    content: "";
+    display: none;
+    position: relative;
+    bottom: 5%;
+    width: 8px;
+    height: 12px;
+    background-image: url('/src/blocks/slider/images/right-arrow_hover.svg');
+}
+.next-button:hover::after{
+    display: inline-block;
+}
+
+.slider_indicators{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    top: 50%;
+}
+
+.indicator{
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+.indicator:active {
+    opacity: 1;
+}
+
 .text{
     padding-top: 15px;
     display: flex;
@@ -214,6 +335,11 @@ main{
     width: 1141px;
     background-color: #fff;
 }
+
+.novosti{
+    background-color: #fff;
+}
+
 .postup{
     display: flex;
     justify-content: space-between;
@@ -280,7 +406,7 @@ main{
 }
 .d3 input {
     width: 406px;
-    height: 38px                                                                                                                                                                                      ;
+    height: 38px;
     padding-left: 10px;
     border: 1px solid #DFE0E1;
     border-radius: 5px;
@@ -388,9 +514,12 @@ main{
 footer{
     display: flex;
     margin: 0 auto;
-    width: 1140px;
     background-color: #fff;
     flex-direction: column;
+}
+.footer-container{
+    width: 1140px;
+    margin: 0 auto;
 }
 .footerTop{
     display: flex;
@@ -405,7 +534,7 @@ footer{
 }
 .d2 input {
     width: 430px;
-    height: 38px                                                                                                                                                                                      ;
+    height: 38px;
     padding-left: 10px;
     border: 1px solid #DFE0E1;
     border-radius: 5px;
