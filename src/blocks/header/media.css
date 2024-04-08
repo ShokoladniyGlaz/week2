@@ -1,0 +1,50 @@
+@media screen and (max-width: 400px){
+    body{
+      background-color: aqua;
+
+    }
+    header{
+        display: flex;
+        align-items: center;
+        align-items: center;
+        width:375px ;
+        margin: 0 auto;
+
+    }
+    .headerTop{
+      visibility: collapse;
+    }
+    .headerMid{
+      max-width: 375px;
+      display: flex;
+      margin: 0 auto;
+      align-items: center;
+    }
+    .d1{
+        position: relative;
+      }
+      .d1 input {
+        width: 195px;
+        height: 40px                                                                                                                                                                                      ;
+        padding-left: 10px;
+        border: 1px solid #DFE0E1;
+        border-radius: 5px;
+        outline: none;
+        background: white;
+        color: #9E9C9C;
+        position: relative;
+      }
+      .d1 button {
+        display: none;
+      }
+      nav{
+        display: none;
+      }
+      .navEl{
+        display: none;
+      }
+      .navEl1 .d{
+        visibility: collapse;
+      }
+  }
+  

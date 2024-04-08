@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: Roboto;
+    font-size: 14px; 
+}
+.textGrup
+{
+    font-size:12px ;
+    color:rgba(28, 41, 77, 0.5);
+    line-height: 15px;
+}
+.textOpis{
+    font-size:14px ;
+    color: rgba(28, 41, 77, 1);
+    font-weight: 500;
+    line-height: 19px;
+    
+}
+.textName{
+    font-size:12px ;
+    color: rgba(28, 41, 77, 1);
+    letter-spacing:-0.1px ;
+    line-height: 15px;
+}
+.summ{
+    font-size:18px ;
+    color: rgba(28, 41, 77, 1);
+    font-weight: 700;
+    line-height: 20px;
+}
+.sele{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FD3A3A;
+}
+.vigoda{
+    font-size: 12px;
+    line-height: 14.06px;
+    color: #0DB98C;
+}
+.section{
+    font-size: 20px;
+    font-weight: 700;
+}
+.potpiskaText{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.dostName{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 31px;
+    color: #1C294D;
+}
+.dostOpis{
+    font-size: 12px;
+    line-height: 19px;
+    color: #727272;
+}
+.novName{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-top: 5px;
+}
+.novOpis{
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 8px;
+}
+.footer{
+    color: #282F36CC;
+}
