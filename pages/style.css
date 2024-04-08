@@ -16,9 +16,12 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
     align-items: center;
     background-color: #fff;
+}
+.header-container{
+    width: 1140px;
+    margin: 0 auto;
 }
 
 .headerTop {
@@ -570,7 +573,6 @@ main {
 
 footer {
     display: flex;
-    margin: 0 auto;
     background: linear-gradient(to bottom, #f1f1f2 20%, #fff 10%);
     flex-direction: column;
 }
