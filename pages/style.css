@@ -47,11 +47,13 @@ body{
     display: flex;
     align-items: center;
     gap: 5px;
+    cursor: pointer;
 }
 .navEl1{
   display: flex;
   align-items: center;
   gap: 5px;
+  cursor: pointer;
 }
 .headerMid{
   display: flex;
@@ -78,6 +80,9 @@ body{
 .d1 input::placeholder{
   font-size: 14px;
 }
+button{
+    cursor: pointer;
+}
 .d1 button {
   display: flex;
   justify-content: space-around;
@@ -101,12 +106,14 @@ body{
   align-items: center;
   justify-content: space-between;
   gap: 30px;
+  cursor: pointer;
 }
 .BlockHM2{
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 30px;
+  cursor: pointer;
 }
 
 .headerBot{
@@ -127,6 +134,7 @@ nav{
   justify-content: space-between;
   width:483px ;
   gap: 5px;
+  cursor: pointer;
 }
 
 
@@ -188,7 +196,7 @@ main{
 .slider {
     position: relative;
     text-align: center;
-    top: 27%;    
+    top: 35%;    
 }
 
 .slide {
@@ -223,7 +231,7 @@ main{
     bottom: 5%;
     width: 8px;
     height: 12px;
-    background-image: url('/src/blocks/slider/images/right-arrow.svg');
+    background-image: url('../src/blocks/slider/images/left-arrow.svg');
 }
 .prev-button:hover::before{
     display: none;
@@ -235,7 +243,7 @@ main{
     bottom: 5%;
     width: 8px;
     height: 12px;
-    background-image: url('/src/blocks/slider/images/right-arrow_hover.svg');
+    background-image: url('../src/blocks/slider/images/left-arrow_hover.svg');
 }
 .prev-button:hover::after{
     display: inline-block;
@@ -255,7 +263,7 @@ main{
     bottom: 5%;
     width: 8px;
     height: 12px;
-    background-image: url('/src/blocks/slider/images/right-arrow.svg');
+    background-image: url('../src/blocks/slider/images/right-arrow.svg');
 }
 .next-button:hover::before{
     display: none;
@@ -267,7 +275,7 @@ main{
     bottom: 5%;
     width: 8px;
     height: 12px;
-    background-image: url('/src/blocks/slider/images/right-arrow_hover.svg');
+    background-image: url('../src/blocks/slider/images/right-arrow_hover.svg');
 }
 .next-button:hover::after{
     display: inline-block;
@@ -278,7 +286,7 @@ main{
     display: flex;
     justify-content: center;
     gap: 5px;
-    top: 50%;
+    top: 65%;
 }
 
 .indicator{
@@ -514,7 +522,7 @@ main{
 footer{
     display: flex;
     margin: 0 auto;
-    background-color: #fff;
+    background: linear-gradient(to bottom,#f1f1f2 20%,#fff 10%);
     flex-direction: column;
 }
 .footer-container{
@@ -527,6 +535,7 @@ footer{
     align-items: center;
     height: 90px;
     background-color: #f1f1f2;
+    width: 1140px;
 }
 .d2{
     position: relative;
@@ -551,14 +560,14 @@ footer{
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    padding-left: 26px;
+    padding-left: 25px;
     padding-right: 25px;
     top: 0;
     right: -1px ;
     width: 50px;
-    height: 42px;
+    height: 41px;
     border: none;
-    background: #0288D1;
+    background: #FF5C00;
     border-radius:0 5px 5px 0;
     border: 1px solid #FFFFFF;
     cursor: pointer;
@@ -607,6 +616,7 @@ footer{
 .prais{
     display: flex;
     gap:8px;
+    cursor: pointer;
 }
 .Contacts{
     display: flex;
