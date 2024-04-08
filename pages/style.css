@@ -350,7 +350,9 @@ main {
 }
 
 .butt_big {
-    padding-right: 124px
+    padding-right: 124px;
+    display: flex;
+    gap: 10px;
 }
 
 .buttonP1 {
@@ -454,6 +456,7 @@ main {
     width: 1140px;
     height: 40px;
     border-top: 1px solid #1C294D26;
+    cursor: pointer;
 }
 
 .potpiska {
@@ -610,7 +613,8 @@ footer {
 
 .d2 {
     position: relative;
-    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .d2 input {
@@ -624,6 +628,7 @@ footer {
     color: #9E9C9C;
     position: relative;
     font-style: 20px;
+    margin-left: 280px;
 }
 
 .d2 input::placeholder {
@@ -739,12 +744,34 @@ footer {
 .footNet{
     display: none;
 }
+.media{
+    display: none;
+}
+.geoloc{
+    padding-left: 140px;
+}
+.pol_conf{
+    padding-right: 27px;
+}
+.hidden{
+    display: flex;
+}
+.contacts_left{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.seleNav{
+    color: red;
+}
 
 @media (max-width: 375px) {
     body {
         margin: 0 10px;
     }
-
+    .media{
+        display: flex;
+    }
     .headerTop {
         display: none;
     }
@@ -809,7 +836,9 @@ footer {
     .slider_svg {
         width: 88px;
     }
-
+    .slider_indicators{
+        top: 60%;
+    }
     .cart {
         margin-top: 10px;
         margin-left: 0;
@@ -845,7 +874,7 @@ footer {
     }
 
     #book_category-besteller {
-        left: 10px;
+        left: -10px;
     }
 
     #book_category-sale {
@@ -912,7 +941,6 @@ footer {
 
     .d3 input {
         width: 320px;
-        margin-right: 50px;
     }
 
     .d3 button {
@@ -956,6 +984,7 @@ footer {
     }
     .d2 input{
         width: 220px;
+        margin-left: 0;
     }
     .footNet{
         display: block;
@@ -968,13 +997,89 @@ footer {
     .d2 input::placeholder{
         font-size: 13px;
     }
+    .footerMid{
+        flex-direction: column;
+        height: 100%;
+        padding-top: 20px;
+        padding-left: 20px;
+        border: none;
+    }
     .footCont{
+        gap: 30px;
         span{
             display: none;
         }
         
     }
+    .footCont-middle{
+        display: flex;
+        flex-direction: column;
+        opacity: 0.5;
+        gap: 10px;
+    }
+    .mail-phone{
+        flex-direction: column-reverse;
+    }
     #span_header{
         display: flex;
+        font-weight: 500;
+        color: #1C294D;
+        margin-bottom: 11px;
+    }
+    main{
+        width: 100%;
+    }
+    .footCont_nav{
+        display: flex;
+        justify-content: space-between;
+        width: 315px;
+        border-bottom: 1px solid #1C294D26;
+        padding-bottom: 10px;
+    }
+    .Contacts{
+        display: flex;
+        justify-content: space-between;
+        width: 315px;
+        border-bottom: 1px solid #1C294D26;
+        padding-bottom: 20px;
+    }
+    .contacts_left{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .footerBot{
+        flex-direction: column-reverse;
+        background: #fff;
+        padding-left: 20px;
+        align-items: normal;
+        height: 100%;
+        gap: 0;
+    }
+    .geoloc{
+        padding-left: 0;
+        font-size: 13px;
+    }
+    .geoloc_nav{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        width: 315px;
+        justify-content: space-between;
+        border-bottom: 1px solid #1C294D26;
+        padding-bottom: 20px;
+    }
+    .footer{
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    .bonus_line{
+        padding-top: 20px;
+        border-top: 1px solid #1C294D26;
+    }
+}
+@media (max-width: 355px){
+    body{
+        margin: 0;
     }
 }
